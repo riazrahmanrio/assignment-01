@@ -1,0 +1,69 @@
+body{
+    background-color: rgba(245, 245, 245, 1);
+}
+*{
+    font-family: "Fira Sans";
+}
+header, main{
+    margin: 0 320px
+}
+                                     /* Shared Styles */
+
+                                     .black-80{color: rgb(14, 14, 14, 0.8);}
+                                     .gray-70{color: rgba(14, 14, 14, 0.7);}
+                                     .white{color: white;}
+                                     .gray{color: rgba(14, 14, 14, 0.5);}
+                                     .b-1{
+                                        border-radius: 8px;
+                                        color: white;
+                                        font-size: 18px;
+                                        border: none;
+                                     }
+
+
+
+
+                                       /* Nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 20px;
+}
+.nav-t{
+    font-size: 32px;
+}
+.nav-b{
+    border-radius: 8px;
+    border: rgba(0, 106, 80, 1) solid;
+    height: 52px;
+    width: 116px;
+    color: rgba(0, 106, 80, 1) ;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+                                      /* Banner */
+.banner{
+    background-color: rgba(198, 228, 214, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    padding: 80px 60px;
+    border-radius: 24px;
+    border: none;
+}
+
+.banner-t{
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: 500;
+}
+.banner-c{
+    font-size: 56px;
+}
+.banner-b{
+    background-color: rgba(0, 106, 80, 1);
+    padding: 17px 34px;
+}
