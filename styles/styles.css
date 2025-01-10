@@ -10,9 +10,9 @@ header, main{
                                      /* Shared Styles */
 
                                      .black-80{color: rgb(14, 14, 14, 0.8);}
-                                     .gray-70{color: rgba(14, 14, 14, 0.7);}
+                                     .black-70{color: rgba(14, 14, 14, 0.7);}
                                      .white{color: white;}
-                                     .gray{color: rgba(14, 14, 14, 0.5);}
+                                     .black-50{color: rgba(14, 14, 14, 0.5);}
                                      .b-1{
                                         border-radius: 8px;
                                         color: white;
@@ -53,6 +53,7 @@ nav{
     padding: 80px 60px;
     border-radius: 24px;
     border: none;
+    margin-bottom: 80px;
 }
 
 .banner-t{
@@ -66,4 +67,33 @@ nav{
 .banner-b{
     background-color: rgba(0, 106, 80, 1);
     padding: 17px 34px;
+}
+                                    /* Pillars of BD */
+.pillars{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.pillar{
+    background-color: white;    
+    width: 302px;
+    height: 244px;
+    border-radius: 16px;
+    border: 1px rgba(14, 14, 14, 0.15) solid;
+    padding: 24px;
+}
+.p-cap{
+    font-size: 40px;
+
+}
+.pillar-cap{
+    font-size: 20px;
+    color: rgb(14, 14, 14, 0.8);
+    margin: 24px 0 12px;
+}
+.pillar-sub{
+    font-size: 16px;
+    color: rgb(14, 14, 14, 0.7);
+    line-height: 24px;
 }
