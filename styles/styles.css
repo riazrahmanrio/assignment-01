@@ -142,3 +142,31 @@ nav{
     font-size: 16px;
     margin-bottom: 0;
 }
+                                        /* Speech */
+.speech{
+    border-radius: 16px;
+    background-color: white;
+    padding: 25px 24px 48px;
+}
+.sp-div{
+    background-image: url('../images/quote-bg.png');
+    background-repeat: no-repeat;
+}
+.sp-para{
+    padding-top: 23px;
+    color:rgb(14, 14, 14, 0.8);
+    line-height: 24px;
+    font-size: 16px;
+}
+.sp-cap{
+    font-size: 20px;
+    line-height: 24px;
+    color: rgb(14, 14, 14, 0.8);
+    margin: 12px 0 4px;
+}
+.sp-sub{
+    color: rgb(14, 14, 14, 0.6);
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+}
