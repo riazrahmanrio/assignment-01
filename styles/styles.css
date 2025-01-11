@@ -28,6 +28,7 @@ header, main{
                                      }
                                      ::placeholder {
                                         color: rgba(14, 14, 14, 0.3);
+                                        line-height: 24px;
                                       }
 
 
@@ -272,4 +273,47 @@ nav{
 }
 .donate-f{
     margin: 32px 124px;
+}
+                                            /* Newsletter */
+.newsletter{
+    padding: 80px 265px;
+    margin-bottom: 80px;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+    border: none;
+    text-align: center;
+}                                            
+.newsletter-t{
+    font-size: 40px;
+}
+.newsletter-para{
+    margin: 16px 64px 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(14, 14, 14, 0.7);
+}
+.n-f-email{
+    width: 520px;
+    padding: 18px 40px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.n-f-b{
+    padding: 17px 34px;
+    border-radius: 0 8px 8px 0;
+    border: none;
+    background-color: rgba(0, 106, 80, 1);
+    font-size: 18px;
+    line-height: 24px;
+}
+.newsletter-f{
+    display: flex;
+}
+.newsletter-foot{
+    color: rgb(14, 14, 14, 0.7);
+    font-size: 16px;
+    margin-top: 24px;
 }
