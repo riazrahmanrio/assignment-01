@@ -40,13 +40,14 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 0 0 20px;
+    padding: 24px 0;
 }
 .nav-t{
     font-size: 32px;
 }
 .nav-b{
     border-radius: 8px;
-    border: rgba(0, 106, 80, 1) solid;
+    border:1px rgba(0, 106, 80, 1) solid;
     height: 52px;
     width: 116px;
     color: rgba(0, 106, 80, 1) ;
@@ -74,6 +75,7 @@ nav{
 }
 .banner-c{
     font-size: 56px;
+    margin: 16px 0 24px;
 }
 .banner-b{
     background-color: rgba(0, 106, 80, 1);
@@ -97,6 +99,7 @@ nav{
 }
 .p-cap{
     font-size: 40px;
+    margin-bottom: 32px;
 
 }
 .pillar-cap{
@@ -316,4 +319,21 @@ nav{
     color: rgb(14, 14, 14, 0.7);
     font-size: 16px;
     margin-top: 24px;
+}
+                                                 /* Footer */
+footer{
+    text-align: center;
+    padding: 50px 390.5px;
+    background-color: white;
+}
+
+footer hr{
+    margin: 32px 0;
+    color: rgba(14, 14, 14, 0.1);
+}
+.icons img{
+    margin: 0 12px;
+}
+footer h2{
+    font-size: 32px;
 }
