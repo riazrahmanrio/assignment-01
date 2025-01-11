@@ -338,7 +338,7 @@ footer h2{
     font-size: 32px;
 }
                                           /* hover */
-button:hover{
+button:hover, .b-1:hover{
     cursor: pointer;
     background-color: rgba(6, 160, 6, 0.562);
 
@@ -350,4 +350,5 @@ button:hover{
 .pillar:hover, .vision:hover, .news-card:hover{
     background-color: aliceblue;
 }
+
 
