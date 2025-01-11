@@ -5,7 +5,7 @@ body{
     font-family: "Fira Sans";
 }
 header, main{
-    margin: 0 320px
+    margin: 0 303.5px
 }
                                      /* Shared Styles */
 
@@ -13,6 +13,12 @@ header, main{
                                      .black-70{color: rgba(14, 14, 14, 0.7);}
                                      .white{color: white;}
                                      .black-50{color: rgba(14, 14, 14, 0.5);}
+                                     .lav{background-color: rgba(84, 144, 245, 0.2);}
+                                     .gre{background-color: rgba(198, 228, 214, 1);}
+                                     .yel{background-color: rgba(247, 235, 207, 1);}
+                                     .lav-2{background-color: rgba(84, 144, 245, 1);}
+                                     .gre-2{background-color: rgba(9, 161, 92, 1);}
+                                     .yel-2{background-color: rgba(255, 194, 57, 1);}
                                      .b-1{
                                         border-radius: 8px;
                                         color: white;
@@ -74,6 +80,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     gap: 24px;
+    margin-bottom: 80px;
 }
 .pillar{
     background-color: white;    
@@ -96,4 +103,42 @@ nav{
     font-size: 16px;
     color: rgb(14, 14, 14, 0.7);
     line-height: 24px;
+}
+                                    /* The Vision of Future */
+.visions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.vision{
+    width: 410.67px;
+    border-radius: 16px;
+    border: none;
+    padding: 32px;
+}
+.future-t{
+    font-size: 40px;
+}
+.future-para{
+    margin: 24px 0 32px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+}
+.vision-t{
+    margin: 24px 0 12px;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.vision-para{
+    margin-bottom: 32px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    line-height: 24px;
+}
+.vision-b{
+    padding: 11px 20px;
+    font-size: 16px;
+    margin-bottom: 0;
 }
