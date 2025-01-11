@@ -337,3 +337,17 @@ footer hr{
 footer h2{
     font-size: 32px;
 }
+                                          /* hover */
+button:hover{
+    cursor: pointer;
+    background-color: rgba(6, 160, 6, 0.562);
+
+}
+.donate-cards:hover{
+    background-color: bisque;
+    cursor: pointer;
+}
+.pillar:hover, .vision:hover, .news-card:hover{
+    background-color: aliceblue;
+}
+
